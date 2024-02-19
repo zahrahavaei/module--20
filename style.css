@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    
+}
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+body{
+   
+}
+a{
+    text-decoration: none;
+    color:inherit
+}
+/* start menu ..................................................................... */
+.main-menu{
+    /* background-color: antiquewhite; */
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px auto;
+    color: #006953;
+}
+.logo{
+    font-size: 16px;
+    padding: 8px 16px;
+}
+.header-ul1{
+    /* background-color: aqua; */
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.header-ul1 li{
+    padding: 8px 32px;
+}
+.header-ul1-myprojects{
+    cursor: pointer;
+}
+.header-myprojects-submenu{
+    display: none;
+     /* background-color:chocolate; */
+    list-style: none; 
+    display: flex;
+    flex-direction:column;
+    position: absolute;
+    margin-top: 8px;
+    padding: 8px;
+    border: solid 1px #006953;
+    border-radius: 4px;
+    list-style: none;
+    
+}
+.header-myprojects-submenu li{
+    padding: 8px;
+    /* background-color: bisque; */
+}
+.btn-contactme{
+    background-color: #006953;
+    color: white;
+    border-radius: 4px;
+    margin: 8px;
+    padding: 8px 16px;
+}
+.header-humbergermenu{
+    padding: 8px;
+    display: none;
+}
+
+.header-humbergermenu-icon{
+    height: 32px;
+}
+/* end menu................................................................ */
