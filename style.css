@@ -29,7 +29,7 @@
   }
   
 body{
-   
+  
 }
 a{
     text-decoration: none;
@@ -97,3 +97,113 @@ a{
     height: 32px;
 }
 /* end menu................................................................ */
+/* start hero................................................................ */
+.hero{
+    max-width: 1200px;
+    margin: 104px auto;
+    display: block;
+     background-color:crimson; 
+     
+} 
+.hero-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: beige;
+}
+
+.hero-title-green-image{
+    position: absolute;
+    top:160px;
+    left:-40px;
+}
+.hero-left{
+    padding: 130px 0px;
+     /* background-color: aquamarine; */
+    display: flex; 
+    flex-direction: column;
+    padding-left: 8px;
+}
+.hero-left-p1{
+    font-size: 24px;
+}
+.hero-left-p2{
+    font-size: 48px;
+    color: #006953;
+    padding-top:40px ;
+}
+.hero-left-p3{
+    padding-top:24px ;
+    font-size: 40px;
+    max-width: 440px;
+    /* background-color: blueviolet; */
+}
+.hero-left-btn{
+    padding-top: 40px;
+    /* background-color: aqua; */
+}
+.hero-right{
+    /* background-color:cadetblue; */
+   
+}
+.hero-right-image{
+    max-width: 570px; 
+    display: block;
+   /* background-color: crimson; */
+}
+/* end hero .......................................*/
+/* project over view ..............................*/
+.project-overview{
+    max-width: 1200px;
+    margin: 80px auto;
+    flex-wrap: wrap;
+    /* background-color:chocolate; */
+    padding: 8px;
+}
+.project-overview-p1,.problem-statement-p1,.project-goal-p1{
+    font-size: 40px;
+}
+.project-overview-p1 span,.problem-statement-p1 span,.project-goal-p1 span{
+    color: #006953;
+}
+.project-overview-p2{
+    font-size: 16px;
+}
+.problem-statement{
+    max-width: 1200px;
+    margin: 80px auto;
+    flex-wrap: wrap;
+    padding: 8px;
+}
+.project-goal{
+    max-width: 1200px;
+    margin: 80px auto;
+    padding: 8px;
+    flex-wrap: wrap;
+}
+/*.............media query.....................*/
+
+@media (max-width: 768px){
+    .header-ul1{
+        display: none;
+
+    }
+    .header-humbergermenu{
+        display: block;
+    }
+    /* .hero{
+         flex-direction: row-reverse; 
+    } */
+.hero-title-green-image{
+    display: none;
+}
+.hero{
+    flex-direction: row-reverse;
+}
+}
+@media (max-width: 576px){
+    .hero-right-image{
+         max-width: 420px; 
+     }
+}
