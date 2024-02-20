@@ -101,17 +101,14 @@ a{
 .hero{
     max-width: 1200px;
     margin: 104px auto;
-    display: block;
-     background-color:crimson; 
-     
-} 
-.hero-wrapper{
+   
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     flex-wrap: wrap;
-    background-color: beige;
-}
+     /* background-color:crimson;  */
+     
+} 
+
 
 .hero-title-green-image{
     position: absolute;
@@ -161,7 +158,7 @@ a{
     /* background-color:chocolate; */
     padding: 8px;
 }
-.project-overview-p1,.problem-statement-p1,.project-goal-p1{
+.project-overview-p1,.problem-statement-p1,.project-goal-p1,.design-thinking-process-p1,.timeline-p1{
     font-size: 40px;
 }
 .project-overview-p1 span,.problem-statement-p1 span,.project-goal-p1 span{
@@ -182,6 +179,164 @@ a{
     padding: 8px;
     flex-wrap: wrap;
 }
+.project-goal-green-shape{
+    position: absolute;
+    top:1400px;
+    left:-170px;
+    z-index: -10;
+}
+.design-thinking-process{
+    max-width: 1200px;
+    margin: 80px auto;
+    padding: 8px;
+    flex-wrap: wrap;
+    /* background-color: aquamarine; */
+}
+.design-thinking-process-row{
+    margin-top: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* background-color: brown; */
+
+}
+.design-thinking-process-cart{
+    /* background-color: blue; */
+}
+.design-thinking-process-cart-p{
+    margin-top: 32px;
+    max-width: 144px;
+    /* background-color: crimson; */
+}
+.timeline{
+    max-width: 1200px;
+    margin: 80px auto;
+    padding: 8px;
+    /* background-color: aquamarine;*/
+} 
+.timeline-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.timeline-ux-design{
+    background-color: #006953;
+    color: white;
+    padding: 8px;
+    font-size: 32px;
+}
+.timeline-ui-design{
+    background-color: #BE9871;
+    padding: 8px;
+    font-size: 32px;
+}
+.timeline-details-left{
+    background-color: #BE9871;
+    display: grid;
+    justify-content: space-between;
+
+}
+.timeline-left-cart{
+    /* background-color: chocolate; */
+    height: 80px;
+    padding-top: 16px;
+    max-width: 208px;
+}
+ .cart2{
+    margin-top: 40px;
+}
+ .cart3{
+    margin-top: 80px;
+}
+ .cart4{
+    margin-top: 120px;
+}
+.timeline-right{
+    /* background-color: cadetblue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+.timeline-right-cart{
+    height: 80px;
+    padding-top: 16px;
+    max-width: 208px;
+}
+.cart6{
+    margin-top: 40px;
+}
+.cart7{
+    margin-top: 80px;
+}
+.timeline-right p{
+    max-width: 158px;
+}
+.timeline-left{
+   /* background-color: aqua; */
+   display: flex;
+    flex-direction: row;
+}
+/* empathize ..............................*/
+.empathize{
+    max-width: 1360px;
+    margin: 80px auto;
+    margin-right: 0px;
+    justify-content: space-between;
+    /* background-color: blanchedalmond; */
+    
+}
+.empathize-title{
+    font-size: 40px;
+    max-width: 635px;
+    color: #006953;
+}
+.empathize-left-title{
+    border-bottom: solid 1px #006953;
+   
+}
+.empathize-title2{
+    font-size: 24px;
+    margin-top: 32px;
+}
+.empathize-row{
+    max-width: 1360px;
+     /* background-color: blue;  */
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+    flex-wrap: wrap;
+   margin-top: 32px;
+    
+}
+.empathize-left-title{
+font-size: 24px;
+}
+.empathize-left-title2{
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+.empathize-left{
+   background-color: #E3CAA8;
+    padding: 8px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: right;
+   max-width: 635px;
+}
+.empathize-right{
+     display: flex;
+    flex-direction: column; 
+     align-content:center;
+    justify-content: space-between; 
+    /* background-color: #006953; */
+   
+}
+.empathize-right img{
+    
+}
 /*.............media query.....................*/
 
 @media (max-width: 768px){
@@ -192,10 +347,8 @@ a{
     .header-humbergermenu{
         display: block;
     }
-    /* .hero{
-         flex-direction: row-reverse; 
-    } */
-.hero-title-green-image{
+    
+.hero-title-green-image,.project-goal-green-shape{
     display: none;
 }
 .hero{
