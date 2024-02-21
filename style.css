@@ -529,6 +529,112 @@ max-width: 200px;
 .information-architecture p{
     font-size: 48px;
 }
+.wireframe{
+    max-width: 1200px;
+    margin: 80px auto;
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #E3CAA8; */
+   
+}
+.wireframe p{
+    font-size: 32px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.wireframe-row{
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.wireframe-row img{
+    width: 100%;
+}
+.Typography{
+    max-width: 1200px;
+    margin: 80px auto;
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* background-color: aqua; */
+
+}
+.typography-row{
+    
+   margin-top: 24px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* background-color: chocolate; */
+} 
+.typo-tittle{
+    font-size: 32px;
+    border-bottom: solid 2px #006953;
+    max-width: 400px;
+}
+.Typography span{
+    color: #006953;
+}
+.typography-right{
+    background-color:#E3CAA8;
+    padding: 32px 16px;
+    border-radius: 4px;
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; */
+    margin-top: 8px;
+    font-size: 16px;
+   
+}
+.typography-left img{
+    width:100%;
+}
+.typography-row2{
+    max-width: 1200px;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    /* background-color: brown; */
+}
+.style-row{
+    max-width: 1200px;
+    margin: 80px auto;
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    border: dotted 1px #006953;
+    border-radius: 4px;
+}
+.ui-button{
+    width: 100%;
+}
+.prototype{
+    max-width: 1200px;
+    margin: 80px auto;
+    padding: 8px;
+}
+.prototype-title{
+    font-size: 56px;
+}
+.prototype img{
+    width: 100%;
+    margin-top: 32px;
+}
 /*.............media query.....................*/
 
 @media (max-width: 768px){
